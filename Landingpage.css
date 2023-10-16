@@ -1,0 +1,62 @@
+.button1{
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn1 {
+    background-color:transparent; 
+    color: white; 
+    border: 2px solid purple;
+    
+  }
+  
+  .btn1:hover {
+    background-color: purple;
+    color: white;
+  }
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("https://helios-i.mashable.com/imagery/reviews/0778lG5KNk5Wr8uLrNcBSdY/hero-image.fill.size_1248x702.v1623384545.jpg") center/cover no-repeat;
+
+  }
+  
+  .right {
+    right: 0;
+    
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+ 
+  .header{
+    text-align:center;
+    padding-top: 50px;
+    font-size: 4rem;
+   
+    color:white;
+  }
+  

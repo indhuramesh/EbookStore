@@ -1,0 +1,80 @@
+.addbody{
+    color:white;
+    background-color:black;    
+}
+/* Addbook.css */
+* {
+  box-sizing: border-box;
+}
+
+.body5 {
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.addbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.addform {
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+ 
+
+  align-items:center;
+
+}
+
+.addform label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+  color:white;
+}
+
+.addform input[type="text"],
+.addform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: transparent;
+  color:white
+}
+
+.addform textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+
+
+.addform button[type="submit"] {
+  background-color:rgb(134, 4, 146);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addform button[type="submit"]:hover {
+  background-color:transparent;
+}
+
+.error{
+    color:rgb(253, 3, 3);
+    display: flex;
+    padding-top:20px;
+}

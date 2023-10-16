@@ -1,0 +1,86 @@
+body{
+    background-color:black;
+}
+.head{
+    
+    color:white;
+    font-size:2rem;
+    font-weight:bold;
+    margin:0;
+    text-align:center;
+    padding-bottom:40px
+}
+.templateContainer{
+    margin :5% ;
+    border-radius: 20px;
+    
+}
+.templateContainer > .searchInput_Container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    border-radius: 100px;
+  
+}
+.searchInputContainer input{
+    width:500%;
+    padding:10px;
+    outline:none;
+    border-radius: 20px;
+    
+}
+.templateContainer.template_Container{
+    display: grid;
+    align-items:center;
+    justify-content:center;
+    margin: 0 ;
+   
+    float:left;
+}
+.templateContainer .template_Container .template{
+    background-color:white;
+    margin:50px;
+   width:300px;
+   border-radius:20px;
+   height:400px;
+   
+   
+   display:grid;
+  
+   
+
+}
+.templateContainer .template_Container .template img{
+    height:150px;
+    width:100px;
+    display:grid;
+    float:left;
+    border-radius: 20px;
+   
+}
+.templateContainer .template_Container .template:hover{
+    transform: scale(1.1);
+}
+
+.in{
+    width:50%;
+   
+}
+
+  
+  .icon {
+    position: absolute;
+    right:25px;
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+  }
+  .button{
+    padding:10px;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("https://png.pngtree.com/thumb_back/fh260/background/20210717/pngtree-aesthetic-background-pink-pastel-image_746353.jpg") center/cover no-repeat;
+
+    color:white;
+    width:80%;
+    border-radius:20px;
+  }
